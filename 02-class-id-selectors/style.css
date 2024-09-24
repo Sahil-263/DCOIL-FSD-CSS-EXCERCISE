@@ -1,0 +1,30 @@
+.Odd{
+    background-color: pink;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.Even{
+    font-family:'Courier New', Courier, monospace;
+    margin: 20px;
+}
+.Odd:nth-child(1), .Odd:nth-child(5){
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.Odd:nth-child(3){
+    font-size: 54px;
+    font-weight: 500;
+}
+.Even:nth-child(2){
+    font-size: 80px;
+    font-weight: 700;
+    color: blue;
+}
+.Even:nth-child(4){
+    font-size: 54px;
+    font-weight: 900;
+    background-color: yellowgreen;
+    color: black;
+}
